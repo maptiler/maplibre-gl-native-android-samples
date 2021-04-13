@@ -6,9 +6,9 @@
     android:layout_height="match_parent">
 
     <com.mapbox.mapboxsdk.maps.MapView
-        android:id="@+id/simpleMapView"
+        android:id="@+id/rasterMapView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".SimpleMapFragment" />
+        tools:context=".RasterOverlay" />
 
 </FrameLayout>

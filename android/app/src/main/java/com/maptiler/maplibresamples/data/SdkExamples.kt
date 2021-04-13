@@ -1,6 +1,8 @@
 package com.maptiler.maplibresamples.data
 
 import com.maptiler.maplibresamples.CustomMapFragment
+import com.maptiler.maplibresamples.GeoJsonOverlayFragment
+import com.maptiler.maplibresamples.RasterOverlayFragment
 import com.maptiler.maplibresamples.SimpleMapFragment
 import java.util.*
 
@@ -26,16 +28,16 @@ object SdkExamples {
         )
         addItem(
             SdkSample(
-                "Annotations",
-                "Add annotations to the map",
-                SimpleMapFragment::class.qualifiedName!!
+                "GeoJson Overlay",
+                "Add line from GeoJson",
+                GeoJsonOverlayFragment::class.qualifiedName!!
             )
         )
         addItem(
             SdkSample(
-                "RasterOverlay",
+                "Raster Overlay",
                 "Add raster overlay to the map",
-                SimpleMapFragment::class.qualifiedName!!
+                RasterOverlayFragment::class.qualifiedName!!
             )
         )
     }
