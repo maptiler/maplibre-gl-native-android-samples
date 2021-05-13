@@ -1,9 +1,6 @@
 package com.maptiler.maplibresamples.data
 
-import com.maptiler.maplibresamples.CustomMapFragment
-import com.maptiler.maplibresamples.GeoJsonOverlayFragment
-import com.maptiler.maplibresamples.RasterOverlayFragment
-import com.maptiler.maplibresamples.SimpleMapFragment
+import com.maptiler.maplibresamples.*
 import java.util.*
 
 object SdkExamples {
@@ -38,6 +35,13 @@ object SdkExamples {
                 "Raster Overlay",
                 "Add raster overlay to the map",
                 RasterOverlayFragment::class.qualifiedName!!
+            )
+        )
+        addItem(
+            SdkSample(
+                "Annotation",
+                "Add symbol annotation",
+                AnnotationFragment::class.qualifiedName!!
             )
         )
     }

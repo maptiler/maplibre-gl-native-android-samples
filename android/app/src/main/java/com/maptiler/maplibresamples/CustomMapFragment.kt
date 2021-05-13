@@ -44,6 +44,8 @@ class CustomMapFragment : Fragment() {
         Helper.validateKey(mapTilerKey)
 
         // Use your custom style url
+        // replace the map identifier (f3c7b19d-7f5b-42a2-8b98-90ed51ca373a) with your own identifier
+        // see https://docs.maptiler.com/maplibre-gl-native-android/android-custom-map/#publish-the-map
         val styleUrl = "https://api.maptiler.com/maps/f3c7b19d-7f5b-42a2-8b98-90ed51ca373a/style.json?key=${mapTilerKey}";
         // Set the style after mapView was loaded
         map.setStyle(styleUrl) {
