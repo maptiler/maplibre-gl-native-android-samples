@@ -1,3 +1,3 @@
-# maplibre-gl-native-ios-samples 
+# maplibre-gl-native-android-samples 
 
-MapTiler code samples for MapLibre GL Native Android
+[MapTiler](https://www.maptiler.com/) code samples for [MapLibre GL Native Android](https://docs.maptiler.com/maplibre-gl-native-android/).
